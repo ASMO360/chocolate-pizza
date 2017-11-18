@@ -10,10 +10,11 @@
 /*id of left    */
 #left-side {
   max-width: 100px;
-  align-content: left-side;
+  align: left;
 }
-
+/*id of right     */
 #right-side {
-  max-width: 10px;
-  align-content: right-side;
+  max-width: 3vw;
+  align: right;
+
 }
