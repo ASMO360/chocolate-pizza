@@ -1,42 +1,20 @@
-#two-column {
+
+/*section class    */
+.two-column {
   display: inline-block;
   width: calc(100% / 3);
   margin: 5% 0;
   margin-left: calc((100% / 3) /3);
 }
-#print-logo {
-  min-width: 25px;
-  po: auto;
+
+/*id of left    */
+#left-side {
+  max-width: 100px;
+  align: left;
 }
-caption {
-  font-size: 10px;
-}
-h1{
-  font-family: "Lucida Console", Courier, monospace;
-}
-p {
-  text-indent: 50px;
-  font-family: times;
-  font-size: 16px;
-}
-hr {
-  color: grey;
-  weight: 15px;
-}
-form {
-  float: left;
-  background-image: url(https://raw.githubusercontent.com/codefellows/seattle-201d28/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png);
-}
-#left{
-  /*margin-right: 600px;*/
-  float: left;
-}
-#right{
-  margin-left: 600px
-}
-.Vanessa{
-  float:left;
-}
-.last-breakline{
-  margin-top: 80px;
+/*id of right     */
+#right-side {
+  max-width: 3vw;
+  align: right;
+
 }
