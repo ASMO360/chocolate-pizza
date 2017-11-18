@@ -26,6 +26,7 @@ hr {
 form {
   float: left;
   background-image: url(https://raw.githubusercontent.com/codefellows/seattle-201d28/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png);
+  border-width: thick;
 }
 #left{
   /*margin-right: 600px;*/
