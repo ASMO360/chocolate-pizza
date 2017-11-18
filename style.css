@@ -1,0 +1,20 @@
+
+/*section class    */
+.two-column {
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 5% 0;
+  margin-left: calc((100% / 3) /3);
+}
+
+/*id of left    */
+#left-side {
+  max-width: 100px;
+  align: left;
+}
+/*id of right     */
+#right-side {
+  max-width: 3vw;
+  align: right;
+
+}
