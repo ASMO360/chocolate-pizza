@@ -1,14 +1,17 @@
+
 @font-face url ('https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet');
 
 html {
   max-width: 950px;
 }
+
 .two-column {
   display: inline-block;
   width: calc(100% / 3);
   margin-left: calc((100% / 3) /3);
   float: right
 }
+
 #print-logo {
   min-width: 25px;
   float:right;
@@ -44,7 +47,6 @@ padding-left: 100px;
 padding-right: 60px;
 }
 #left{
-  /*margin-right: 600px;*/
   float: left;
 }
 #right{
